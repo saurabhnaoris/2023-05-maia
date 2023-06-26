@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "../lib/solady/src/auth/Ownable.sol";
 
 import {RewardsDepot} from "./RewardsDepot.sol";
 
@@ -65,7 +65,7 @@ contract MultiRewardsDepot is Ownable, RewardsDepot, IMultiRewardsDepot {
     }
 
     /*///////////////////////////////////////////////////////////////
-                                MODIFIERS   
+                                MODIFIERS
     //////////////////////////////////////////////////////////////*/
 
     /// @notice modifier to check if msg.sender is a rewards contract

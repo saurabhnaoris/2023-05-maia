@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity >=0.8.0;
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
-import {UtilityManager} from "@hermes/UtilityManager.sol";
+import {UtilityManager} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/UtilityManager.sol";
 
 contract MockUtilityManager is UtilityManager {
     mapping(address => uint256) public userClaimableWeight;

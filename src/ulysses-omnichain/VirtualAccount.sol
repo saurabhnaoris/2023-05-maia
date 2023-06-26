@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
-import {ERC721} from "solmate/tokens/ERC721.sol";
+import {ERC721} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC721.sol";
 
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 

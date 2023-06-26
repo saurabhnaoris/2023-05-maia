@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {bHermes} from "@hermes/bHermes.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
 
 import {PartnerManagerFactory} from "../factories/PartnerManagerFactory.sol";
 

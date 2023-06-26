@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
-import {bHermes, bHermesBoost, bHermesGauges} from "@hermes/bHermes.sol";
+import {bHermes, bHermesBoost, bHermesGauges} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
 
 import {BaseV2GaugeFactory} from "./BaseV2GaugeFactory.sol";
 

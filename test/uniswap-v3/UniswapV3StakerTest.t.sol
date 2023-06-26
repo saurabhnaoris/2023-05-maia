@@ -7,7 +7,7 @@ import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 import {FixedPointMathLib} from "solmate/utils/FixedPointMathLib.sol";
 import {SafeCastLib} from "solmate/utils/SafeCastLib.sol";
 import {SafeTransferLib} from "solmate/utils/SafeTransferLib.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
@@ -25,8 +25,8 @@ import {
 import {BribesFactory, FlywheelBoosterGaugeWeight} from "@gauges/factories/BribesFactory.sol";
 import {UniswapV3Gauge, BaseV2Gauge} from "@gauges/UniswapV3Gauge.sol";
 
-import {BaseV2Minter} from "@hermes/minters/BaseV2Minter.sol";
-import {bHermes} from "@hermes/bHermes.sol";
+import {BaseV2Minter} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/minters/BaseV2Minter.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
 
 import {UniswapV3Assistant} from "@test/test-utils/UniswapV3Assistant.t.sol";
 

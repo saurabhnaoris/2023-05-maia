@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
 
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 import {ReentrancyGuard} from "solmate/utils/ReentrancyGuard.sol";
 
 import {IERC4626MultiToken} from "./interfaces/IERC4626MultiToken.sol";

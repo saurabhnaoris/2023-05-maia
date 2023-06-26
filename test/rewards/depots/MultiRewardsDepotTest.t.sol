@@ -6,7 +6,7 @@ import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 
 import {MultiRewardsDepot} from "@rewards/depots/MultiRewardsDepot.sol";
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
 contract MultiRewardsDepotTest is DSTestPlus {
     MockERC20 public rewardToken;

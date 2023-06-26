@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
 import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
@@ -9,7 +9,7 @@ import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 import {MockERC20Gauges} from "../erc-20/mocks/MockERC20Gauges.t.sol";
 import {MockRewardsStream} from "../rewards/mocks/MockRewardsStream.sol";
 
-import {bHermes} from "@hermes/bHermes.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
 import {FlywheelBoosterGaugeWeight} from "@rewards/booster/FlywheelBoosterGaugeWeight.sol";
 import {MultiRewardsDepot} from "@rewards/depots/MultiRewardsDepot.sol";
 import {FlywheelCore, ERC20} from "@rewards/FlywheelCoreStrategy.sol";

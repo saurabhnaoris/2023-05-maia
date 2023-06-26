@@ -2,17 +2,17 @@
 // Rewards logic inspired by Tribe DAO Contracts (flywheel-v2/src/rewards/FlywheelGaugeRewards.sol)
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {Ownable} from "../lib/solady/src/auth/Ownable.sol";
+import {SafeCastLib} from "../lib/solady/src/utils/SafeCastLib.sol";
+import {SafeTransferLib} from "../lib/solady/src/utils/SafeTransferLib.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "../lib/solmate/src/tokens/ERC20.sol";
 
-import {ERC20Gauges} from "@ERC20/ERC20Gauges.sol";
+import "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/erc-20/ERC20Gauges.sol";
 
 import {IFlywheelGaugeRewards} from "../interfaces/IFlywheelGaugeRewards.sol";
 
-import {IBaseV2Minter} from "@hermes/interfaces/IBaseV2Minter.sol";
+import "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/interfaces/IBaseV2Minter.sol";
 
 /// @title Flywheel Gauge Reward Stream
 contract FlywheelGaugeRewards is Ownable, IFlywheelGaugeRewards {

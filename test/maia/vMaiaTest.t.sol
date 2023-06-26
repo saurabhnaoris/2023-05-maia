@@ -3,15 +3,15 @@ pragma solidity ^0.8.0;
 
 import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
 import {vMaia, PartnerManagerFactory, ERC20} from "@maia/vMaia.sol";
 import {IBaseVault} from "@maia/interfaces/IBaseVault.sol";
 import {MockVault} from "./mock/MockVault.t.sol";
 
-import {bHermes} from "@hermes/bHermes.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
 
-import {DateTimeLib} from "solady/utils/DateTimeLib.sol";
+import {DateTimeLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/DateTimeLib.sol";
 
 import {console2} from "forge-std/console2.sol";
 

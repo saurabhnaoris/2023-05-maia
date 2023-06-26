@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 import {WETH9} from "../interfaces/IWETH9.sol";
 
 import {CoreBranchRouter} from "../CoreBranchRouter.sol";

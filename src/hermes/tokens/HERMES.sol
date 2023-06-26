@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
 /**
- * @title Hermes ERC20 token - Native token for the Hermes Incentive System 
+ * @title Hermes ERC20 token - Native token for the Hermes Incentive System
  *  @author Maia DAO (https://github.com/Maia-DAO)
  *  @notice Native token for the Hermes Incentive System.
  *

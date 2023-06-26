@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
-import {bHermesGauges} from "@hermes/tokens/bHermesGauges.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
+import {bHermesGauges} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesGauges.sol";
 
 import {BaseV2GaugeFactory} from "../factories/BaseV2GaugeFactory.sol";
 

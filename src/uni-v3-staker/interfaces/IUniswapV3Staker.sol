@@ -10,7 +10,7 @@ import {INonfungiblePositionManager} from "@uniswap/v3-periphery/contracts/inter
 
 import {UniswapV3Gauge} from "@gauges/UniswapV3Gauge.sol";
 
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
 
 /**
  * @title Uniswap V3 Staker Interface with bHermes Boost.

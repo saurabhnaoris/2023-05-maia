@@ -8,8 +8,8 @@ import {ERC20hTokenBranch as ERC20hToken} from "@omni/token/ERC20hTokenBranch.so
 import {INonfungiblePositionManager} from "@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol";
 
 import {WETH9} from "@omni/interfaces/IWETH9.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
-import {Ownable} from "solady/auth/Ownable.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
 import {console2} from "forge-std/console2.sol";
 

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity >=0.8.0;
 
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
 import {UlyssesERC4626} from "@ERC4626/UlyssesERC4626.sol";
 

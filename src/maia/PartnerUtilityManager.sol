@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
-import {ERC20Votes, UtilityManager, IUtilityManager} from "@hermes/UtilityManager.sol";
+import {ERC20Votes, UtilityManager, IUtilityManager} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/UtilityManager.sol";
 
 import {IBaseVault} from "./interfaces/IBaseVault.sol";
 import {IPartnerUtilityManager} from "./interfaces/IPartnerUtilityManager.sol";

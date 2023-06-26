@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "./lib/solady/src/auth/Ownable.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "./lib/solmate/src/tokens/ERC20.sol";
 
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
 
-import {MultiRewardsDepot} from "@rewards/depots/MultiRewardsDepot.sol";
+import {MultiRewardsDepot} from "../rewards/depots/MultiRewardsDepot.sol";
 import {FlywheelBribeRewards} from "@rewards/rewards/FlywheelBribeRewards.sol";
 import {FlywheelCore} from "@rewards/FlywheelCoreStrategy.sol";
 import {FlywheelGaugeRewards} from "@rewards/rewards/FlywheelGaugeRewards.sol";
@@ -76,7 +76,7 @@ abstract contract BaseV2Gauge is Ownable, IBaseV2Gauge {
     }
 
     /*///////////////////////////////////////////////////////////////
-                        GAUGE ACTIONS    
+                        GAUGE ACTIONS
     //////////////////////////////////////////////////////////////*/
 
     /// @inheritdoc IBaseV2Gauge
@@ -121,7 +121,7 @@ abstract contract BaseV2Gauge is Ownable, IBaseV2Gauge {
     }
 
     /*///////////////////////////////////////////////////////////////
-                            ADMIN ACTIONS    
+                            ADMIN ACTIONS
     //////////////////////////////////////////////////////////////*/
 
     /// @inheritdoc IBaseV2Gauge

@@ -3,9 +3,9 @@ pragma solidity ^0.8.0;
 
 import {console2} from "forge-std/console2.sol";
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 import {FixedPointMathLib} from "solmate/utils/FixedPointMathLib.sol";
 
 import {SafeTransferLib} from "solmate/utils/SafeTransferLib.sol";
@@ -308,7 +308,7 @@ contract TalosStrategyStakedTest is TalosTestor {
         hevm.expectEmit(true, true, true, true);
         // Values from Popsicle hardhat test: emit Rerange(-12360, -5280, 59402, 179537);
         // Fees are collected by UniswapV3Staker, so deposits slightly less
-        emit Rerange(talosBaseStrategy.tokenId() + 2, -12480, -5280, 58227, 178916); 
+        emit Rerange(talosBaseStrategy.tokenId() + 2, -12480, -5280, 58227, 178916);
 
         talosBaseStrategy.rebalance();
     }

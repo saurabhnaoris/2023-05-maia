@@ -5,7 +5,7 @@ import {console2} from "forge-std/console2.sol";
 import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 
 import { INonfungiblePositionManager } from "@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol";
-import { bHermesBoost } from "@hermes/tokens/bHermesBoost.sol";
+import { bHermesBoost } from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
 
 
 import "../mocks/MockBoostAggregatorFactory.sol";
@@ -67,7 +67,7 @@ contract BoostAggregatorFactoryTest is DSTestPlus {
         assertEq(address(aggregator.hermesGaugeBoost()), hermesGaugeBoost);
         assertEq(address(aggregator.nonfungiblePositionManager()), nonfungiblePositionManager);
         assertEq(address(aggregator.hermes()), mockERC20);
-        
+
         assertEq(factory.boostAggregators(1).owner(), owner);
     }
 

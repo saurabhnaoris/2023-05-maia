@@ -7,8 +7,8 @@ import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 
-import {bHermes} from "@hermes/bHermes.sol";
-import {IBaseV2Minter, BaseV2Minter, FlywheelGaugeRewards} from "@hermes/minters/BaseV2Minter.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
+import {IBaseV2Minter, BaseV2Minter, FlywheelGaugeRewards} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/minters/BaseV2Minter.sol";
 
 contract BaseV2MinterTest is DSTestPlus {
     //////////////////////////////////////////////////////////////////

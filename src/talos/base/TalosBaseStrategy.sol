@@ -2,13 +2,13 @@
 // Logic inspired by Popsicle Finance Contracts (PopsicleV3Optimizer/contracts/popsicle-v3-optimizer/PopsicleV3Optimizer.sol)
 pragma solidity >=0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
+import {SafeCastLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeCastLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
 
 import {ReentrancyGuard} from "solmate/utils/ReentrancyGuard.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 

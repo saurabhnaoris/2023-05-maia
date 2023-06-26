@@ -5,10 +5,10 @@ import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 
 import {ERC4626} from "@ERC4626/ERC4626.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
-import {Ownable} from "solady/auth/Ownable.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
 
 import {console2} from "forge-std/console2.sol";
 
@@ -18,8 +18,8 @@ import {MockVault} from "../mock/MockVault.t.sol";
 import {PartnerManagerFactory} from "@maia/factories/PartnerManagerFactory.sol";
 import {PartnerUtilityManager} from "@maia/PartnerUtilityManager.sol";
 
-import {bHermes} from "@hermes/bHermes.sol";
-import {bHermesVotes as ERC20MultiVotes} from "@hermes/tokens/bHermesVotes.sol";
+import {bHermes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
+import {bHermesVotes as ERC20MultiVotes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesVotes.sol";
 
 contract ERC4626PartnerManagerTest is DSTestPlus {
     using SafeTransferLib for address;

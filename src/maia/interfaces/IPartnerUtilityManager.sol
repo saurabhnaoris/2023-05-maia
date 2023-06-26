@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {bHermesVotes as ERC20Votes} from "@hermes/tokens/bHermesVotes.sol";
+import {bHermesVotes as ERC20Votes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesVotes.sol";
 
 /**
  * @title Partner Utility Tokens Manager Contract.

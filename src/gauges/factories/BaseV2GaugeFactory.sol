@@ -2,11 +2,11 @@
 
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
 import {BaseV2Gauge} from "@gauges/BaseV2Gauge.sol";
 
 import {BribesFactory} from "./BribesFactory.sol";

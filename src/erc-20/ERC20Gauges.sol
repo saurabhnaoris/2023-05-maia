@@ -2,13 +2,13 @@
 // Gauge weight logic inspired by Tribe DAO Contracts (flywheel-v2/src/token/ERC20Gauges.sol)
 pragma solidity ^0.8.0;
 
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
+import {SafeCastLib} from "./lib/solady/src/utils/SafeCastLib.sol";
 
-import {ReentrancyGuard} from "solmate/utils/ReentrancyGuard.sol";
+import {ReentrancyGuard} from "./lib/solmate/utils/ReentrancyGuard.sol";
 
-import {EnumerableSet} from "@lib/EnumerableSet.sol";
+import {EnumerableSet} from "./lib/EnumerableSet.sol";
 
-import {IBaseV2Gauge} from "@gauges/interfaces/IBaseV2Gauge.sol";
+import {IBaseV2Gauge} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/gauges/interfaces/IBaseV2Gauge.sol";
 
 import {ERC20MultiVotes} from "./ERC20MultiVotes.sol";
 

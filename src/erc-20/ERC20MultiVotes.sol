@@ -3,15 +3,15 @@
 
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
+import {Ownable} from "./lib/solady/src/auth/Ownable.sol";
+import {SafeCastLib} from "./lib/solady/src/utils/SafeCastLib.sol";
+import {FixedPointMathLib} from "./lib/solady/src/utils/FixedPointMathLib.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "./lib/solmate/src/tokens/ERC20.sol";
 
-import {EnumerableSet} from "@lib/EnumerableSet.sol";
+import {EnumerableSet} from "./lib/EnumerableSet.sol";
 
-import {IBaseV2Gauge} from "@gauges/interfaces/IBaseV2Gauge.sol";
+import {IBaseV2Gauge} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/gauges/interfaces/IBaseV2Gauge.sol";
 
 import {Errors} from "./interfaces/Errors.sol";
 import {IERC20MultiVotes} from "./interfaces/IERC20MultiVotes.sol";

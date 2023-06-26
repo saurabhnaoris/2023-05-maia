@@ -7,8 +7,8 @@ import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 import {MockBooster} from "../mocks/MockBooster.sol";
 import "../mocks/MockRewardsStream.sol";
 
-import {bHermes as bHERMES} from "@hermes/bHermes.sol";
-import {IUtilityManager} from "@hermes/interfaces/IUtilityManager.sol";
+import {bHermes as bHERMES} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/bHermes.sol";
+import {IUtilityManager} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/interfaces/IUtilityManager.sol";
 
 import "@rewards/base/FlywheelCore.sol";
 import {FlywheelGaugeRewards, IBaseV2Minter} from "@rewards/rewards/FlywheelGaugeRewards.sol";

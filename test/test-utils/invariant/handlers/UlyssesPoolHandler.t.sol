@@ -6,8 +6,8 @@ import {StdCheats} from "forge-std/StdCheats.sol";
 import {StdUtils} from "forge-std/StdUtils.sol";
 import {console2} from "forge-std/console2.sol";
 
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
+import {SafeCastLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeCastLib.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
 
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
+import {SafeCastLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeCastLib.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
 import {UlyssesERC4626} from "@ERC4626/UlyssesERC4626.sol";
 

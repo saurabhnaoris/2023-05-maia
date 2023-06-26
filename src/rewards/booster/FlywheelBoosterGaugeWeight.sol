@@ -2,9 +2,9 @@
 // Rewards logic inspired by Tribe DAO Contracts (flywheel-v2/src/rewards/IFlywheelBooster.sol)
 pragma solidity ^0.8.0;
 
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "../lib/solmate/src/tokens/ERC20.sol";
 
-import {bHermesGauges} from "@hermes/tokens/bHermesGauges.sol";
+import {bHermesGauges} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesGauges.sol";
 
 import {IFlywheelBooster} from "../interfaces/IFlywheelBooster.sol";
 

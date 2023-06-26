@@ -7,7 +7,7 @@ import {stdError} from "forge-std/StdError.sol";
 import {Test} from "forge-std/Test.sol";
 import {WETH9 as WETH} from "./mocks/WETH9.sol";
 import {console2} from "forge-std/console2.sol";
-import {SafeCastLib} from "solady/utils/SafeCastLib.sol";
+import {SafeCastLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeCastLib.sol";
 
 import {IBranchRouter} from "@omni/interfaces/IBranchRouter.sol";
 

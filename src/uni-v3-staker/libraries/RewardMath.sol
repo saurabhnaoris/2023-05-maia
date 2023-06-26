@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 // Rewards logic inspired by Uniswap V3 Contracts (Uniswap/v3-staker/contracts/libraries/RewardMath.sol)
 
-import {FixedPointMathLib} from "solady/utils/FixedPointMathLib.sol";
+import {FixedPointMathLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/FixedPointMathLib.sol";
 
 /// @title Math for computing rewards for Uniswap V3 LPs with boost
 /// @notice Allows computing rewards given some parameters of boost, stakes and incentives

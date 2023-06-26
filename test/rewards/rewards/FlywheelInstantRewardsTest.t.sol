@@ -5,7 +5,7 @@ import {console2} from "forge-std/console2.sol";
 
 import {DSTestPlus} from "solmate/test/utils/DSTestPlus.sol";
 import {MockERC20} from "solmate/test/utils/mocks/MockERC20.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 import {FlywheelCoreInstant} from "@rewards/FlywheelCoreInstant.sol";
 import {RewardsDepot} from "@rewards/depots/RewardsDepot.sol";
 

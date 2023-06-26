@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.0;
 
-import {Ownable} from "solady/auth/Ownable.sol";
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
+import {Ownable} from "https://github.com/Vectorized/solady/tree/main/src/auth/Ownable.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
 
 import {ERC4626} from "@ERC4626/ERC4626.sol";
 
-import {HERMES} from "@hermes/tokens/HERMES.sol";
+import {HERMES} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/HERMES.sol";
 
 import {FlywheelGaugeRewards} from "@rewards/rewards/FlywheelGaugeRewards.sol";
 

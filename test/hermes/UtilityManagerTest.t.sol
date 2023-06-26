@@ -11,9 +11,9 @@ import "../mocks/MockRewardsStream.sol";
 
 import {MockUtilityManager, UtilityManager} from "./mocks/MockUtilityManager.t.sol";
 
-import {bHermesGauges} from "@hermes/tokens/bHermesGauges.sol";
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
-import {bHermesVotes as ERC20Votes} from "@hermes/tokens/bHermesVotes.sol";
+import {bHermesGauges} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesGauges.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
+import {bHermesVotes as ERC20Votes} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesVotes.sol";
 
 import "@rewards/base/FlywheelCore.sol";
 import {FlywheelGaugeRewards, IBaseV2Minter} from "@rewards/rewards/FlywheelGaugeRewards.sol";

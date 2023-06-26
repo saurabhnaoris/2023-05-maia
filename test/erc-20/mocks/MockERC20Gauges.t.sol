@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity >=0.8.0;
 
-import {ERC20Gauges, IERC20Gauges} from "@ERC20/ERC20Gauges.sol";
-import {ERC20} from "solmate/tokens/ERC20.sol";
+import {ERC20Gauges, IERC20Gauges} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/erc-20/ERC20Gauges.sol";
+import {ERC20} from "https://github.com/saurabhnaoris/solmate/tree/main/src/tokens/ERC20.sol";
 
 contract MockERC20Gauges is ERC20Gauges {
     constructor(address _owner, uint32 _cycleLength, uint32 _freezeWindow)

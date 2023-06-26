@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import {ERC4626} from "@ERC4626/ERC4626.sol";
 
-import {HERMES} from "@hermes/tokens/HERMES.sol";
+import {HERMES} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/HERMES.sol";
 
 import {IRewardsStream} from "@rewards/interfaces/IFlywheelGaugeRewards.sol";
 import {FlywheelGaugeRewards} from "@rewards/rewards/FlywheelGaugeRewards.sol";

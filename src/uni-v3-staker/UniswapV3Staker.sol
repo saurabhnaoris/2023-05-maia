@@ -2,8 +2,8 @@
 // Rewards logic inspired by Uniswap V3 Contracts (Uniswap/v3-staker/contracts/UniswapV3Staker.sol)
 pragma solidity ^0.8.0;
 
-import {SafeTransferLib} from "solady/utils/SafeTransferLib.sol";
-import {Multicallable} from "solady/utils/Multicallable.sol";
+import {SafeTransferLib} from "https://github.com/Vectorized/solady/tree/main/src/utils/SafeTransferLib.sol";
+import {Multicallable} from "https://github.com/Vectorized/solady/tree/main/src/utils/Multicallable.sol";
 
 import {IUniswapV3Factory} from "@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol";
 import {IUniswapV3Pool} from "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
@@ -11,9 +11,9 @@ import {INonfungiblePositionManager} from "@uniswap/v3-periphery/contracts/inter
 
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
-import {IUniswapV3GaugeFactory} from "@gauges/interfaces/IUniswapV3GaugeFactory.sol";
+import {IUniswapV3GaugeFactory} from https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/gauges/interfaces/IUniswapV3GaugeFactory.sol";
 import {UniswapV3Gauge} from "@gauges/UniswapV3Gauge.sol";
-import {bHermesBoost} from "@hermes/tokens/bHermesBoost.sol";
+import {bHermesBoost} from "https://github.com/saurabhnaoris/2023-05-maia/tree/main/src/hermes/tokens/bHermesBoost.sol";
 
 import {IncentiveId} from "./libraries/IncentiveId.sol";
 import {IncentiveTime} from "./libraries/IncentiveTime.sol";
